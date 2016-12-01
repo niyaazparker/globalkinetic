@@ -2,7 +2,7 @@ body{
   background:$bgimg $color5 no-repeat;
   font-family:$mainfont ;
   -webkit-text-stroke: 0.35px;
-  margin-top:60px;
+  margin:40px auto;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     @include border-radius(13px);
   }
     div{
-    margin: 42% 0;
+    margin: 20px 0;
   }
 }
 .speed{

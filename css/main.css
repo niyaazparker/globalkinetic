@@ -1,9 +1,9 @@
 /* line 1, ../scss/partials/index.scss */
 body {
-  background: url("../img/main-bg.jpg") #d28e6a no-repeat;
+  background: url("../img/main-bg.jpg") lightskyblue no-repeat;
   font-family: "Roboto Condensed", Arial;
   -webkit-text-stroke: 0.35px;
-  margin-top: 60px;
+  margin: 40px auto;
 }
 
 /* line 7, ../scss/partials/index.scss */
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 /* line 60, ../scss/partials/index.scss */
 .weather-days div {
-  margin: 42% 0;
+  margin: 20px 0;
 }
 
 /* line 64, ../scss/partials/index.scss */
