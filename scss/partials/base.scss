@@ -1,0 +1,21 @@
+$bgimg:url('../img/main-bg.jpg');
+
+$color1:#ffffff;
+$color2:#333333;
+$color3:#DCE9D7;
+$color4:#b6b6b6;
+$color5:#D28E6A;
+$color6:rgba(50, 84, 116, 0.45);
+$color7:rgba(247, 247, 247, 0.28);
+$color8:#6D788F;
+$color9:rgba(43, 156, 192, 0.34); 
+
+$mainfont:"Roboto Condensed",Arial;
+$fontheavy:300;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
